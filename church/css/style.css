@@ -126,7 +126,6 @@ hr.transparent {
   width: 336px;
   height: 78px;
   display: inline-block;
-  background: url("../images/logo.png") no-repeat 0 50%;
   vertical-align: middle;
 }
 .navbar a.brand span.logo-text {
