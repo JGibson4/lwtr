@@ -110,7 +110,7 @@ hr.transparent {
   position: relative;
 }
 .navbar {
-  border-bottom: solid 8px #eeeeee;
+  border-bottom: solid 8px #2B338D;
   /* Logo
 /* ========================================================================== */
 
@@ -179,7 +179,7 @@ hr.transparent {
 .navbar .nav li.dropdown.open.active > .dropdown-toggle,
 .navbar .nav > .active > a,
 .navbar .nav > .active > a:hover {
-  background-color: #42b3e5;
+  background-color: #2b338d;
   text-shadow: none;
   box-shadow: none;
   color: #ffffff;
@@ -532,7 +532,7 @@ section.breadcrumbs .form-search input[type="text"] {
   }
 }
 section.breadcrumbs .form-search input[type="text"]:focus {
-  border-top-color: #42b3e5;
+  border-top-color: #D5B32A;
 }
 @media (max-width: 767px) {
   section.breadcrumbs .form-search {
@@ -608,7 +608,7 @@ section.breadcrumbs .form-search input[type="text"]:focus {
   display: inline-block;
   padding: 5px 0;
   text-decoration: none;
-  border-bottom: solid 1px #b1b1b1;
+  border-bottom: solid 1px #D5B32A;
   color: #555555;
 }
 #filtrable a:hover {
@@ -616,7 +616,7 @@ section.breadcrumbs .form-search input[type="text"]:focus {
   border-bottom-width: 2px;
 }
 #filtrable .current a {
-  border-color: #42b3e5;
+  border-color: #2B338D;
   border-bottom-width: 2px;
 }
 /* Portfolio Thumbnails
@@ -791,8 +791,8 @@ section.breadcrumbs .form-search input[type="text"]:focus {
   -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
   filter: alpha(opacity = 0);
   opacity: 0;
-  background-color: #42b3e5;
-  background-color: rgba(67, 180, 229, 0.8);
+  background-color: #2B338D;
+  background-color: rgba(43, 51, 141, 0.8);
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
@@ -2594,8 +2594,8 @@ section.breadcrumbs .form-search input[type="text"]:focus {
 }
 #search input[type="text"]:focus,
 #search input[type="text"]:hover {
-  background-color: #42b3e5;
-  border-color: #42b3e5;
+  background-color: #2B338D;
+  border-color: #2B338D;
 }
 #search .search-bt {
   right: 0;
@@ -2609,7 +2609,7 @@ section.breadcrumbs .form-search input[type="text"]:focus {
   background: #3a3a3a url('../images/search-bt.png') no-repeat center center;
 }
 #search .search-bt:hover {
-  background-color: #42b3e5;
+  background-color: #2B338D;
 }
 /* Accordion
 /* ========================================================================== */
@@ -2636,7 +2636,7 @@ section.breadcrumbs .form-search input[type="text"]:focus {
   background-color: transparent;
 }
 .accordion-group .accordion-heading.accordion-open {
-  background-color: #42b3e5;
+  background-color: #2B338D;
 }
 .accordion-group .accordion-heading.accordion-open .accordion-toggle {
   color: #ffffff;
