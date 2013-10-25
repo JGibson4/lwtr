@@ -2194,7 +2194,7 @@ section.breadcrumbs .form-search input[type="text"]:focus {
   text-decoration: underline;
 }
 #footer .footer-banners .fb1 {
-  background-color: #2b338d;
+  background-color: #202020;
   padding-right: 20px;
 }
 @media (min-width: 1200px) {
@@ -2203,7 +2203,7 @@ section.breadcrumbs .form-search input[type="text"]:focus {
   }
 }
 #footer .footer-banners .fb2 {
-  background-color: #d5b32a;
+  background-color: #202020;
   padding-right: 20px;
   margin-left: 0;
 }
@@ -2213,7 +2213,7 @@ section.breadcrumbs .form-search input[type="text"]:focus {
   }
 }
 #footer .footer-banners .fb3 {
-  background-color: #2b338d;
+  background-color: #202020;
   margin-left: 0;
 }
 #footer .widget-title {
