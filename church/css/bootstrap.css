@@ -4361,7 +4361,7 @@ a.badge:hover {
   margin-bottom: 0;
   font-size: 60px;
   line-height: 1;
-  color: inherit;
+  color:;
   letter-spacing: -1px;
 }
 .hero-unit li {

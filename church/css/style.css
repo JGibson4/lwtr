@@ -312,6 +312,8 @@ hr.transparent {
     background-color: #ffffff;
   }
 }
+
+
 /* Flex Slider
 /* ========================================================================== */
 .flexslider {
@@ -572,6 +574,7 @@ section.breadcrumbs .form-search input[type="text"]:focus {
   margin-left: 2em;
   text-indent: -0.8em;
 }
+.intro_und {text-align: center;}
 .the-icons li [class^="icon-"],
 .the-icons li [class*=" icon-"] {
   width: 0.8em;
@@ -3282,6 +3285,8 @@ input[type="color"],
 .hero-unit {
   padding: 20px 30px;
 }
+.her0-unit,.intro {color: #2B338D;}
+
 .hero-unit h1 {
   font-size: 30px;
   line-height: 30px;
