@@ -35,7 +35,7 @@ ob_start();
 <?
 $body = ob_get_contents();
 
-$to = 'leibovitz.kuzen@yandex.ru';
+$to = 'lwtr@lwtrministries.org';
 $email = 'email@example.com';
 $fromaddress = "you@example.com";
 $fromname = "Online Contact";
@@ -46,7 +46,7 @@ $mail = new PHPMailer();
 
 $mail->From     = "mail@yourdomain.com";
 $mail->FromName = "Contact Form";
-$mail->AddAddress("leibovitz.kuzen@yandex.ru","Name 1"); // Put your email
+$mail->AddAddress("lwtr@lwtrministries.org","Living Word"); // Put your email
 $mail->AddAddress("another_address@example.com","Name 2"); // addresses here
 
 $mail->WordWrap = 50;
@@ -57,7 +57,7 @@ $mail->Body     =  $body;
 $mail->AltBody  =  "This is the text-only body";
 
 if(!$mail->Send()) {
-	$recipient = 'leibovitz.kuzen@yandex.ru';
+	$recipient = 'lwtr@lwtrministries.org';
 	$subject = 'Contact form failed';
 	$content = $body;	
   mail($recipient, $subject, $content, "From: mail@yourdomain.com\r\nReply-To: $email\r\nX-Mailer: DT_formmail");
