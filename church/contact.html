@@ -95,10 +95,16 @@
                 <div class="breadcrumbs"><a href="#">Home</a><i class="icon-angle-right "></i>Contact Us</div>
             </div>
             <div class="span6">
-                <form class="form-search">
+                <form id="frmSearch" form class="form-search" method="get">
                     <input type="text" class="input-medium" placeholder="To search type and hit enter...">
                     <button type="submit" class="btn hidden">Search</button>
                 </form>
+                <script type="text/javascript">
+    document.getElementById('frmSearch').onsubmit = function() {
+        window.location = 'http://www.google.com/search?q=site:lwtrministries.org ' + document.getElementById('txtSearch').value;
+        return false;
+    }
+</script>
             </div>
         </div>
     </section>
@@ -241,22 +247,22 @@
                     <div class="media">
                         <i class="icon-double-angle-right media-object"></i>
                         <div class="media-body">
-                            <a href="#">Aliquam nunc erat, suscipit molestie interdum eget, molestie vel eros</a>
-                            <div class="date">2 days ago</div>
+                            <a href="#">New Years Eve Celebration- Let's celebrate the New Year together, rejoicing and thanking God for his many blessings.</a>
+                            <div class="date">Dec. 31, 2013 @ 10:30pm</div>
                         </div>
                     </div>
                     <div class="media">
                         <i class="icon-double-angle-right media-object"></i>
                         <div class="media-body">
-                            <a href="#">Aenean a sapien in magna luctus aliquet in eu purus. Sed venenatis luctus varius</a>
-                            <div class="date">5 days ago</div>
+                            <a href="#">Black History Celebration</a>
+                            <div class="date">Feb. 16, 2014 @ 5:30pm</div>
                         </div>
                     </div>
                     <div class="media">
                         <i class="icon-double-angle-right media-object"></i>
                         <div class="media-body">
-                            <a href="#">Sed a rhoncus mi. Morbi eu elit sapien, eu adipiscing nisl. Duis in turpis et mi molestie bibendum eget eget mauris</a>
-                            <div class="date">1 months ago</div>
+                            <a href="#">Men's Fellowship Event</a>
+                            <div class="date">TBD</div>
                         </div>
                     </div>
                 </div>

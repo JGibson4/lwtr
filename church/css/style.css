@@ -1,6 +1,12 @@
 @import url('http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic');
 
 @import url('http://fonts.googleapis.com/css?family=Volkhov:400,400italic,700,700italic');
+
+@font-face {
+	font-family: 'GreatVibes-Regular';
+	src: url('font/GreatVibes-Regular.otf');
+	/*src: local('Riesling Regular'), local('Riesling'), url('fonts/riesling.ttf') format('truetype');*/
+}
 /* ========================================================================== */
 /* Global properties (body, common classes, vertical rhythm, structure etc)
 /* ========================================================================== */
@@ -576,7 +582,9 @@ section.breadcrumbs .form-search input[type="text"]:focus {
   margin-left: 2em;
   text-indent: -0.8em;
 }
-.intro_und {text-align: center;}
+.intro_und {text-align: center;
+	font-family: 'Pompiere', cursive;
+}
 .the-icons li [class^="icon-"],
 .the-icons li [class*=" icon-"] {
   width: 0.8em;
@@ -3287,7 +3295,10 @@ input[type="color"],
 .hero-unit {
   padding: 20px 30px;
 }
-.her0-unit,.intro {color: #2B338D;}
+.her0-unit,.intro {color: #2B338D;
+	font-family: 'Petit Formal Script', cursive;
+	
+}
 
 .hero-unit h1 {
   font-size: 30px;
